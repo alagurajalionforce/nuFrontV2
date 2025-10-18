@@ -1,0 +1,35 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+@import 'react-datepicker/dist/react-datepicker.css';
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3F4FE;
+}
+
+.custom-select {
+  color: gray;
+  /* placeholder color by default */
+}
+
+.custom-select option {
+  color: black;
+  /* normal options color */
+}
+
+.custom-select:invalid {
+  color: gray;
+  /* ensure placeholder keeps gray */
+}
